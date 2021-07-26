@@ -11,7 +11,7 @@ class no_digit_present(Exception):
 class weak_pass_error(Exception):
     pass
 
-list=["123","zxy","abc","987","456","zxy","0123"]
+list=["123","hello","abc","987","456","xyz","0123"]
 
 def isnum(x):
     for i in x: 
